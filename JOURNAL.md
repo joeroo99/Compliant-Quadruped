@@ -39,3 +39,29 @@ Below are some simple sketches I have created for this project. They are absolut
 
   
 
+## 10/18/2025 - Designing the Base  
+
+It has taken frustratingly long to create the base of the quadruped using CAD. This was mostly my own fault for overlooking printability; it took way too long.
+
+I started by trying to create a "simple" base that would be similar to the one in my preliminary sketches. In this first attempt, I tried to fit everything into one piece for the base. By the time I was getting close to completing it, however, I realized I had made a fundamental mistake: I forgot to consider printability.
+
+There were impossible overhangs in each of the rolling contact joints built into the base, which needed to be removed. After much thought, I finally, grudgingly, decided to print the joints separately as an insert. I wanted to avoid this because it would add complexity to the design; I would have to design a lid to contain everything, including the electronics. My original plan was just to strap everything willy-nilly on the base, but I won't be able to do that now.
+
+My first attempt at a multi-piece base was to have the hip joint inserts designed to be printed flat on their contact surface. I planned to have this contact side flat, while the other side of the joint (on the leg) would have a curved contact surface. This, though, fell through as well. I forgot I had to allow for the cord (or tendon) to go between the two joints in a figure eight pattern. In this design, it would be hard to accommodate this.
+
+Cue my second attempt at a multi-piece base. This was REALLY close, but I wasn't happy with the geometry the tendons would face in the through holes.
+
+Thus, I created my final attempt. I built off of my last attempt, but decided to optimize it to be printed on a forty-five-degree angle on a chamfer. This will allow for less support material; the only thing I may need is a removable rib to reduce vibration when printing. This, I believe, is the most optimized design I can create at the time being. The one downfall of this design is the stepping that is apparent at this angle, but the bearing won't need to bear that much load in this prototype.
+
+As for the base itself, of course, I had to create a new one for each of the joints. This was an extremely silly thing to do, but I thought each solution was the final solution. This, unfortunately, wasted a lot of time.
+
+Finally, I have included a lid. For this, I will also add a chamfer and print at a forty-five-degree angle. This is because I need to allow for a port to be accessible through it, as well as a button and a status light.
+
+The CAD for the base is mostly complete; I will have to come back later and fix some of the variables and names of sketches and whatnot. After I design the PCB and find the other necessary electronic parts, I will also need to edit the base to accommodate these.
+
+Below are some screenshots of the design thus far.
+
+![Screenshot 2025-10-18 133743.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA2MiwicHVyIjoiYmxvYl9pZCJ9fQ==--8ae24f08ef6208a2a1c57eb1d0383e1b97641c4e/Screenshot%202025-10-18%20133743.png)
+![Screenshot 2025-10-18 133809.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA2MSwicHVyIjoiYmxvYl9pZCJ9fQ==--0ff61f4367b56fce6d1399dffc58a55bf6438b01/Screenshot%202025-10-18%20133809.png)
+  
+
