@@ -65,3 +65,14 @@ Below are some screenshots of the design thus far.
 ![Screenshot 2025-10-18 133809.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA2MSwicHVyIjoiYmxvYl9pZCJ9fQ==--0ff61f4367b56fce6d1399dffc58a55bf6438b01/Screenshot%202025-10-18%20133809.png)
   
 
+## 10/20/2025 - Tidying up the CAD of the Base  
+
+Before continuing on the path to make the CAD for the compliant quadruped, I decided to tidy up the existing design somewhat. Not all of the parameters were set correctly, so not all of the parts lined up. Additionally, I needed to ensure that the parameters allowed for an allowance between the parts.
+
+Most of this was somewhat simple, though. I did have some trouble creating a function for the slot size of the base for the inserts, but it turned out all right! I also named all of the sketches, bodies, variables, etc., in the model to help with future editing.
+
+Below is a view I created of the CAD model that shows the added proportionality and allowance.
+
+![Screenshot 2025-10-20 002058.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzY4MSwicHVyIjoiYmxvYl9pZCJ9fQ==--0552e291659c27f98fad15c36c8f018c564a70e7/Screenshot%202025-10-20%20002058.png)
+  
+
