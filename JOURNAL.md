@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **Compliant Quadruped**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/352).
-
-
 ## 10/11/2025 - Brainstorming for the compliant quadruped  
 
 ## The idea
@@ -74,5 +70,26 @@ Most of this was somewhat simple, though. I did have some trouble creating a fun
 Below is a view I created of the CAD model that shows the added proportionality and allowance.
 
 ![Screenshot 2025-10-20 002058.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzY4MSwicHVyIjoiYmxvYl9pZCJ9fQ==--0552e291659c27f98fad15c36c8f018c564a70e7/Screenshot%202025-10-20%20002058.png)
+  
+
+## 10/24/2025 - Designing the First Leg Section of the Quadruped  
+
+I just finished creating the first iteration of the hip-to-knee leg section in CAD. I still need to tidy up some of the variables, sketch names, etc., but it is almost complete. Below is a screenshot of the design.
+
+![Screenshot 2025-10-24 220138](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM1MiwicHVyIjoiYmxvYl9pZCJ9fQ==--ec355f03b8505ae1769eafdc1f410120c9793a12/Screenshot%202025-10-24%20220138.png)
+
+The most difficult and time-consuming part of this design was ensuring that it was 3d printable. I really want to have the design not need supports for the rolling contact joints. I mentioned this in earlier updates, but I do not believe I explained my reasoning behind this thoroughly. My main reason for not wanting support material is the uneven surfaces it will create when removing it. I need to have the contact surfaces of the rolling contact joints as smooth as possible. Additionally, it might be nearly impossible to remove the supports from some of the smaller sections, such as the holes through which the cables for the joints will go. Printing without supports will save many a headache and (probably) wasted prints.
+
+This is why I am spending so much time right now looking for printability issues. I have considered this leg section for printability, and I came upon a solution I did not think of earlier; there only needs to be a gap for the cable on one side of the joint. This simplifies my design tremendously. This means I can print one contact surface on this leg with a slot and one without, implementing the missing slots in the last leg section. This also means that the grooves for the hip joint in the base are redundant, and I can redesign the base all over again to simplify the design.
+
+Though this will add time to the design process, redesigning the base without the groves will allow me to implement everything into one piece without the inserts. The geometries that were impossible to print in the base were for the slots. Now that I am removing the slots from the base, I can print everything in one batteries included piece. Not only will this simplify the design, but it will also allow for more room in the base for the electronics and other hardware.
+
+To ensure the printability for this piece, I will be printing it at a forty-five-degree angle on a chamfer. I will probably need to add some support fins on the design, but this will be minimal and easy to remove.
+
+The next steps will include cleaning up the variable names, sketch names, and the contents of the variables to ensure the design is structured well. After this, I can redesign the base before creating the second (and last) leg segment.
+
+![Screenshot 2025-10-24 220204](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--7855f7a2815f6192e756f43b58df660a7fdc90a4/Screenshot%202025-10-24%20220204.png)
+
+![Screenshot 2025-10-24 220222](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--daef1314426abbd8ac3d6a3d94b6661f5c6ff2a0/Screenshot%202025-10-24%20220222.png)
   
 
