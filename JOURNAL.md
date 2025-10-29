@@ -93,3 +93,25 @@ The next steps will include cleaning up the variable names, sketch names, and th
 ![Screenshot 2025-10-24 220222](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--daef1314426abbd8ac3d6a3d94b6661f5c6ff2a0/Screenshot%202025-10-24%20220222.png)
   
 
+## 10/28/2025 - Redesign of the Base  
+
+I just completed the redesign of the base of the model. Below is an image of the model thus far. I now have the final design of the base and first leg section, leaving only the second leg section and the cap (the optional TPU part) for this. The design is finally starting to be put together!
+
+![Screenshot 2025-10-28 185405](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQwNywicHVyIjoiYmxvYl9pZCJ9fQ==--556203b5d446b6e43e913643b17af6e48e185242/Screenshot%202025-10-28%20185405.png)
+
+
+I started this session by reorganizing the parameter names, action names, sketch names, etc., of the first leg section. I still have to double-check some aspects (one of the chamfers is not set right; I need to figure out what is wrong with the parameters I have inputted for it), but it is practically set.
+
+I then transitioned into the base. My original plan was to have the base print flat (for strength) and have a slot that runs the depth of the wall, where the joints would be, to allow the cord (of the rolling contact joint) to go around. I realized, though, when I was almost finished, that this would be extremely weak. The joint would put pressure along the layer lines, which would probably make it break within two seconds of creating it.
+
+This forced me to rethink the design. I restarted, and I now have something very similar to my very first try (how ironic), and I will have it print on a forty-five-degree angle with a custom support rib. With this orientation, I was thinking that I could move the grooves for the joint into the base and simplify the first joint design, but I decided not to. This is not because it is a good idea, but rather due to the time limit I have. I cannot do micro-optimization the whole time.
+
+One noticeable difference of this new base design is that I extended the rim all the way around the base to retain the joint. This will make the printing on the chamfer much more reliable.
+
+Finally, I redesigned the lid, once again, to accommodate the changes.
+
+My next steps will be to tidy up the designs of the lid and base, before continuing with the legs. I am planning to finish this within the next two weeks, so I have plenty of time to choose the electronics.
+
+![Screenshot 2025-10-28 185430](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQwOCwicHVyIjoiYmxvYl9pZCJ9fQ==--271d3bee6f2b22e1473e5c5d51c0bd6cea936df2/Screenshot%202025-10-28%20185430.png)
+  
+
