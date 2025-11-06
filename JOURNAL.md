@@ -115,3 +115,18 @@ My next steps will be to tidy up the designs of the lid and base, before continu
 ![Screenshot 2025-10-28 185430](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQwOCwicHVyIjoiYmxvYl9pZCJ9fQ==--271d3bee6f2b22e1473e5c5d51c0bd6cea936df2/Screenshot%202025-10-28%20185430.png)
   
 
+## 11/6/2025 - Final Leg Section  
+
+I have now officially finished the visualization of the 3D printed parts! I can now somewhat see what the final build will look like... But there are some caveats.
+
+This is another part that underwent several versions to get to where it is at. My first attempt had a forty-five degree joint section on the end. This might have worked in theory, but I decided that I wanted to have the top of the leg  extend slightly (hopefully to obtain some mechanical advantage).
+
+My second attempt had a joint, which had a buffer area from the edge, at a forty-five degree angle. This, too, did not work out, because when putting together the joints, I realized that having the joints at a forty-five degree angle would require a substantially longer leg from if I simply placed it perpendicularly from the leg.
+
+Cue the latest version. This iteration of the final leg segment has the joint at a ninety degree angle from the leg. The one caveat to this design is that I have to redesign the joint so it has more freedom; as it is, one leg section would bump into the other leg section, making for a very stiff joint. This is my next step; to fix this.
+
+
+![Screenshot 2025-11-06 092433](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--d6b0d5082936182cbc793632a42e93d8129f14cc/Screenshot%202025-11-06%20092433.png)
+
+  
+
